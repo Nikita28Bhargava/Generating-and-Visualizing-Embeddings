@@ -2,7 +2,7 @@
 Here we are creating an embeddings and then visualizing them in 2D and 3D.
 
 Steps involved in Generating and visualizing embeddings are as follows: 
-1. Import the csv file and convert it to a dateframe. The file that is used contains just one column "reviews" of food items.
+1. Import the csv file and convert it to a dataframe. The file that is used contains just one column "reviews" of food items.
 2. Convert the dataframe to a list as embeddings can be created for a list.
 3. Import SentenceTransforms library and use "All-MiniLM-L6-v2" model to generate the embeddings.
 4. The embeddings generated would be in 384 dimensions. It is not possible for human eye to visualize anything in 384 dimensions, so we have to reduce the dimensions from 384 to 2 or 3.
